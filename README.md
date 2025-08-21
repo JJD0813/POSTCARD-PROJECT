@@ -22,16 +22,4 @@ It replicates a postcard layout with a header, message section, input fields, an
 - **CSS3**  
 - **Google Fonts**  
 
----
 
-## 📸 Preview  
-Here’s what the final postcard looks like:  
-
-![Postcard Preview](https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png?raw=true)  
-
----
-
-## 📂 How to Use  
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/your-repo-name.git
