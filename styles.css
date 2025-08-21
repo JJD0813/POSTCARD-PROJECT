@@ -1,0 +1,90 @@
+body {
+    background: black;
+    font-family: "Quicksand", sans-serif;
+}
+
+p {
+    color: black;
+}
+
+.postcard {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 640px;
+    min-height: 400px;
+    margin: 80px auto;
+    padding: 28px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+.postcard-header {
+    display: flex;
+    align-items: center;
+}
+
+.postcard-header img {
+    width: 50px;
+    height: 50px;
+}
+
+.postcard-header h1 {
+    width: 80%;
+    margin: 0;
+    font-family: "Gloria Hallelujah", "Patrick Hand", cursive;
+}
+
+.postcard-body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 28px;
+    flex: 1;
+}
+
+.body-left p:first-child {
+    margin-top: 0;
+}
+
+.body-left,
+.body-right {
+    padding: 10px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+}
+
+.postcard-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: gray;
+    padding: 10px 20px;
+    font-family: cursive;
+    cursor: pointer;
+    border: 1px solid #444;
+}
+
+.body-right textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    padding: 6px 0;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    font: inherit;
+}
+
+.body-right input,
+.body-right textarea {
+    font: inherit;
+    resize: none;
+    height: 40px;
+}
